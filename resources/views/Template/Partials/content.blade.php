@@ -1,7 +1,7 @@
 <!-- Main content -->
 <section class="content">
 
-@yield('content')
+ @yield('content')
 
 </section>
 <!-- /.content -->

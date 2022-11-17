@@ -1,4 +1,4 @@
-@extends('template.master')
+@extends('Template.master')
 
 @section('judul')
   <h1>Ini halaman show</h1>

@@ -20,14 +20,14 @@
   <!-- /.navbar -->
 
   <!-- Main Sidebar Container -->
-  @include('Template.Partials.sidebar');
+  @include('Template.Partials.sidebar')
 
   <!-- Content Wrapper. Contains page content -->
-  @include('Template.Partials.tittle');
+  @include('Template.Partials.tittle')
 
-    @include('Template.Partials.content');
+    @include('Template.Partials.content')
   <!-- /.content-wrapper -->
-  @include('Template.Partials.footer');
+  @include('Template.Partials.footer')
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
