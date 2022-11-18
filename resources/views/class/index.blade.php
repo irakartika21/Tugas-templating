@@ -1,5 +1,9 @@
 @extends('Template.master')
 
 @section('content')
-<h1>ini halaman index kelas</h1>
+
+<h1>
+    Index Kelas
+</h1>
+
 @endsection

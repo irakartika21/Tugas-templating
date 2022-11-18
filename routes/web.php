@@ -4,6 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\akuncontroller;
 use App\Http\Controllers\AccountController;
 use App\Http\Controllers\SiswaController;
+use App\Http\Controllers\KelasController;
+use App\Http\Controllers\ToDoController;
+
 
 
 /*
@@ -149,4 +152,3 @@ Route::resource('student', SiswaController::class);
 
 Route::resource('kelas', KelasController::class);
 
-?>

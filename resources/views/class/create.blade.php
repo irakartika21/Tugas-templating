@@ -17,12 +17,12 @@
                 <div class="card-body">
                   <div class="form-group">
                     <label for="inputNIS">Nama Kelas</label>
-                    <input type="text" name="nama_kelas" class="form-control" id="inputNIS" placeholder="Enter Nomor Indux Siswa">
+                    <input type="text" name="nama_kelas" class="form-control" id="inputNIS" placeholder="Enter Nama Kelas">
                   </div>
 
                   <div class="form-group">
                     <label for="inputNama">Jurusan</label>
-                    <input type="text" name="jurusan" class="form-control" id="inputNIS" placeholder="Enter Nama Siswa">
+                    <input type="text" name="jurusan" class="form-control" id="inputNIS" placeholder="Enter Nama Jurusan">
                   </div>
                 <!-- /.card-body -->
 

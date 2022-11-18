@@ -6,6 +6,20 @@ use Illuminate\Support\Facades\Schema;
 
 class CreateKelasTable extends Migration
 {
+    // /**
+    //  * Run the migrations.
+    //  *
+    //  * @return void
+    //  */
+    // public function up()
+    // {
+    //     Schema::create('kelas', function (Blueprint $table) {
+            
+    //         $table->string('nama_kelas', 20);
+    //         $table->string('jurusan', 100);
+    //         $table->timestamps();
+    //     });
+    // }
     /**
      * Run the migrations.
      *
@@ -15,10 +29,11 @@ class CreateKelasTable extends Migration
     {
         Schema::create('kelas', function (Blueprint $table) {
             $table->id();
-            //awwwwww
-            $table->string('nama_kelas');
-            //alamt ...create alamat as varchar data type 
-            $table->string('jurusan');
+            
+            $table->string('nama_kelas', 20);
+            
+            $table->string('jurusan', 100);
+            
             $table->timestamps();
         });
     }
